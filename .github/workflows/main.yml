@@ -1,8 +1,9 @@
 name: Update README with QOTD
+
 on:
-  workflow_dispatch: # triggers manually
-  # schedule:
-  # - cron: "0 0 * * *" # triggers every midnight
+  workflow_dispatch:
+  #schedule:
+  #- cron: "0 0 * * *" # triggers every midnight
 
 jobs:
   build:
@@ -16,6 +17,7 @@ jobs:
         node-version: '14.x'
     - name: Install node dependencies
       run: npm install
+
     - name: Run QOTD action
       uses: ./ # Uses an action in the root directory
       with:
@@ -27,3 +29,4 @@ jobs:
         git add -A
         git commit -m "Added QOTD from GitHub Actions"
         git push
+
