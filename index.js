@@ -10,7 +10,7 @@ const readme_path = core.getInput("readme_path") || "README.md";
   try {
     // Fetch the quote from API
     const { data } = await axios.get(
-      `https://quotes.rest/qod?category=${category}`
+      `https://api.npoint.io/70a5424aeed887821469`
     );
 
     let quote = `<!-- start quote -->\n`;

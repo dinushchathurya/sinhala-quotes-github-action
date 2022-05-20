@@ -11,10 +11,12 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
+
     - name: Use Node
       uses: actions/setup-node@v2
       with:
         node-version: '14.x'
+
     - name: Install node dependencies
       run: npm install
 
@@ -22,6 +24,7 @@ jobs:
       uses: ./ # Uses an action in the root directory
       with:
          category: 'life'
+         
     - name: Commit and push update
       run: |-
         git config --global user.email "qotd@action.com"
