@@ -22,11 +22,11 @@ jobs:
       uses: ./ # Uses an action in the root directory
       with:
          category: 'life'
-    # - name: Commit and push update
-    #   run: |-
-    #     git config --global user.email "qotd@action.com"
-    #     git config --global user.name "Quote-Bot"
-    #     git add -A
-    #     git commit -m "Added QOTD from GitHub Actions"
-    #     git push
+    - name: Commit and push update
+      run: |-
+        git config --global user.email "qotd@action.com"
+        git config --global user.name "Quote-Bot"
+        git add -A
+        git commit -m "Added QOTD from GitHub Actions"
+        git push
 
