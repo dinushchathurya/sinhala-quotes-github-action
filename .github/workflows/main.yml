@@ -22,9 +22,7 @@ jobs:
 
     - name: Run QOTD action
       uses: ./ # Uses an action in the root directory
-      with:
-         category: 'life'
-         
+  
     - name: Commit and push update
       run: |-
         git config --global user.email "qotd@action.com"
