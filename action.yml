@@ -1,6 +1,6 @@
-name: 'Quote Of The Day Action'
+name: 'Sinhala Quote Of The Day'
 author: 'Dinush Chathurya'
-description: 'Updates README with a quote of the day'
+description: 'Updates README with a Sinhala quote'
 inputs:
   readme_path:
     description: 'Path of the readme file to update'
