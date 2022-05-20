@@ -3,7 +3,7 @@ const fs = require("fs").promises;
 
 const axios = require("axios");
 
-const readme_path = core.getInput("readme_path") || "README.md";
+const readme_path = core.getInput("readme_path", { required: true });
 
 (async () => {
   try {
