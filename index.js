@@ -1,4 +1,4 @@
-import * as core from "@actions/core";
+const core = require("@actions/core");
 const fs = require("fs").promises;
 
 const axios = require("axios");
