@@ -1,6 +1,7 @@
 name: Update README with QOTD
 
 on:
+  workflow_dispatch:
   schedule:
       - cron: "*/5 * * * *" #triggers every 5 minitues
 
