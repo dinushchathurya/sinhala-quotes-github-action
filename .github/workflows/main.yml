@@ -5,7 +5,6 @@ on:
   #schedule:
   #- cron: "0 0 * * *" # triggers every midnight
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
