@@ -20,7 +20,7 @@ jobs:
     - name: Install node dependencies
       run: npm install
 
-    - name: Run QOTD action
+    - name: Sinhala Quote Of The Day
       uses: ./
 
 
