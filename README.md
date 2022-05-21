@@ -1,5 +1,5 @@
 <!-- start quote -->
-💬 Quote of the Day: "5555555555555."
+💬 Quote of the Day: "awdsaawdawd."
 <!-- end quote -->
 
 # Sinhala Quote of the day
