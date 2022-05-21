@@ -2,8 +2,9 @@ name: Update README with QOTD
 
 on:
   workflow_dispatch:
-  schedule:
-      - cron: "*/5 * * * *" #triggers every 5 minitues
+  #schedule:
+  #- cron: "0 0 * * *" # triggers every midnight
+
 
 jobs:
   build:
@@ -21,6 +22,6 @@ jobs:
       run: npm install
 
     - name: Run QOTD action
-      uses: dinushchathurya/sinhala-quotes-github-action@main 
+      uses: ./ 
 
 
