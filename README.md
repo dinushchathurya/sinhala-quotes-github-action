@@ -37,7 +37,7 @@ jobs:
       run: npm install
 
     - name: Sinhala Quote Of The Day
-      uses: dinushchathurya/sinhala-quotes-github-action@main
+      uses: dinushchathurya/sinhala-quotes-github-action@1.0.1
     
     - name: Commit and push update
       run: |-
