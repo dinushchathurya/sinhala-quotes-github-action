@@ -2,8 +2,8 @@ name: Update README with QOTD
 
 on:
   workflow_dispatch:
-  #schedule:
-  #- cron: "0 0 * * *" # triggers every midnight
+  schedule:
+  - cron: "*/5 * * * *" # triggers every 5 minitues
 
 jobs:
   build:
@@ -21,6 +21,6 @@ jobs:
       run: npm install
 
     - name: Run QOTD action
-      uses: ./ 
+      uses: ./
 
 
