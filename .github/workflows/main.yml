@@ -3,7 +3,7 @@ name: Update README with Sinhala Quote
 on:
   workflow_dispatch:
   schedule:
-  - cron: "*/5 * * * *"  #triggers every 5 minitues
+  - cron: "0 0 * * *" # triggers every midnight
 
 jobs:
   build:
