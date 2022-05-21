@@ -8,7 +8,9 @@
 
 1. Add the following lines in the file where quote will be updated.
 ```
-<!-- start quote --> and <!--- end quote -->
+<!-- start quote --> 
+
+<!--- end quote -->
 ```
 
 2. Create Workflow
