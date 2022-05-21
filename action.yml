@@ -4,11 +4,11 @@ description: 'Updates README with a Sinhala quote'
 inputs:
   readme_path:
     description: 'Path of the readme file to update'
-    default: "./README.md"
+    default: "README.md"
     required: false
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'index.js'
 branding:
   icon: 'message-circle'
   color: 'white'
