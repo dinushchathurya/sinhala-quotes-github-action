@@ -1,10 +1,9 @@
-name: Update README with QOTD
+name: Update README with Sinhala Quote
 
-on: [push]
-# on:
-  # workflow_dispatch:
-  # schedule:
-  # - cron: "*/5 * * * *" # triggers every 5 minitues
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "*/5 * * * *"  #triggers every 5 minitues
 
 jobs:
   build:
@@ -26,10 +25,10 @@ jobs:
     
     - name: Commit and push update
       run: |-
-        git config --global user.email "qotd@action.com"
+        git config --global user.email "sinhalaquotes@action.com"
         git config --global user.name "Quote-Bot"
         git add -A
-        git commit -m "Added QOTD from GitHub Actions"
+        git commit -m "Added Sinhala QOTD from GitHub Actions"
         git push
 
 
