@@ -31,7 +31,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Sinhala Quote Of The Day
-      uses: dinushchathurya/sinhala-quotes-github-action@1.0.5
+      uses: dinushchathurya/sinhala-quotes-github-action@1.0.6
     
     - name: Commit and push update
       run: |-
