@@ -7047,7 +7047,7 @@ const readme_path = core.getInput('readme_path') || "README.md";
 (async () => {
   try {
 
-    const { data } = await axios.get(`https://www.npoint.io/docs/97e73eca87e1ee7e3e10`);
+    const { data } = await axios.get(`https://www.npoint.io/docs/70a5424aeed887821469`);
 
     let quote = `<!-- start quote -->\n`;
     let qotd = data.contents.quotes[0].quote;
