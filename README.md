@@ -40,7 +40,4 @@ jobs:
         git add -A
         git commit -m "Added Sinhala QOTD from GitHub Actions"
         git push
-
-
-
 ```
